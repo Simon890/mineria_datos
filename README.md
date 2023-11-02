@@ -1,6 +1,6 @@
-#Tecnicatura Universitaria en Inteligencia Artificial
-##Trabájo Práctico - Minería de Datos
-###Arboles de descicion y aprendizaje supervizado
+# Tecnicatura Universitaria en Inteligencia Artificial
+## Trabájo Práctico - Minería de Datos
+### Arboles de descicion y aprendizaje supervizado
 
 ---
 
