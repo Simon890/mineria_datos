@@ -1,6 +1,6 @@
 # Tecnicatura Universitaria en Inteligencia Artificial
 ## Trabájo Práctico - Minería de Datos
-### Arboles de descicion y aprendizaje supervizado
+### Clustering y reducion de dimensionalidad
 
 ---
 
@@ -8,4 +8,4 @@
 - Revello Simon
 - Giampaoli Fabio
 
-**Fecha**: 10/11/2023
+**Fecha**: 8/10/2023
