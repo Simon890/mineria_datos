@@ -797,11 +797,10 @@ button.on_click(on_button_clicked)
 display(max_depth_widget, min_samples_split_widget, min_samples_leaf_widget, criterion_widget, button, out)
 
 # 10, 8, 8, gini es lo mejor que encontre
-#36, 75
 
 """Notamos que las metricas de validacion son mmuy bajas para ambos conjuntos. Esto confirma la hipotesis de que las variables del dataset no son lo suficientemente explicativas para estimar el atributo Type debido a las similaridades de cada distribucion de cada clase y sus bajos niveles de correlacion.
 
-### Seleción
+### Selección
 
 Si fuera requisito el poder clasificar la clase type de un personaje con estas condiciones dadas usando un modelo basado en arboles, se elije un modelo con los siguientes paramatros que fueron los mas optimos (o los menos bajos) encontrados manualmente.
 """
@@ -1066,7 +1065,7 @@ display(knn_w, metric_w, p_w, weights_w, button, out)
 
 En el grafico, no podemos notar agrupaciones claras de las clases segun las prediciones.
 
-### Selecion automatica
+### Selección automática
 
 En lugar de probar manualmente la selecion de los parametros que mejores resultados otorgan para las metricas del modelo, podemos usar una utilidad que permite automaticamente selecionar el conjunto de parametros que optimizan las metricas.
 
@@ -1112,7 +1111,7 @@ plt.show()
 
 """Notamos que la metrica en entrenamiento es muy cercana para 14 y 15 vecinos. Pero que con 14 vecinos la metrica en validacion es levemente menor.
 
-### Seleccion
+### Selección
 
 Creamos un modelo final con las metricas selecionadas listo para estimaciones de tipos de pokemon.
 """
@@ -1146,11 +1145,11 @@ ConfusionMatrixDisplay(confusion_matrix=cm).plot()
 
 Se han trabajado dos conjuntos de datos diferentes, con objetivos diferentes.
 
-Para el primero el objetivo fue estimar una variable continua usando una regresion basada en arboles. Los resultados fueron muy positivos y se han conseguido metricas de validacion de predicciones muy buenas con un modelo relativamente sencillo.
+Para el primero el objetivo fue estimar una variable continua usando una regresión basada en árboles. Los resultados fueron muy positivos y se han conseguido métricas de validación de predicciones muy buenas con un modelo relativamente sencillo.
 
-Para el segundo conjunto de datos, el objetivo fue de estimar clases, es decir, realizar clasificaciones de tipos de personajes. Se han probado 3 enfoques de modelos diferentes y cambiado los hiperparametros de cada uno. En los tres modelos de clasificacion las metricas de validacion sobre las predicciones resultaron insatisfactorias debido a los altas probabilidades de que se equivoquen al estimar una clase en base a otros atributos.
+Para el segundo conjunto de datos, el objetivo fue de estimar clases, es decir, realizar clasificaciones de tipos de personajes. Se han probado 3 enfoques de modelos diferentes y cambiado los hiperparametros de cada uno. En los tres modelos de clasificación las métricas de validación sobre las predicciones resultaron insatisfactorias debido a las altas probabilidades de que se equivoquen al estimar una clase en base a otros atributos.
 
-Aun asi se han probado tres enfoques de clasificacion diferentes donde algunos demostraron un mejor desempeño, aunque no significativo para ser elejido como modelo preferido para esta tarea.
+Aun así se han probado tres enfoques de clasificación diferentes donde algunos demostraron un mejor desempeño, aunque no significativo para ser elegido como modelo preferido para esta tarea.
 
-Para lograr estimaciones de las clases con mayor precision es posible que se requieran modelos mas sotisficados o un dataset que aporte mas informacion, ya sea con mas variables explicativas o mas cantidad de registros para 'enriquecer' el entrenamiento de los modelos de clasificacion.
+Para lograr estimaciones de las clases con mayor precisión es posible que se requieran modelos más sofisticados o un dataset que aporte más información, ya sea con más variables explicativas o más cantidad de registros para 'enriquecer' el entrenamiento de los modelos de clasificación.
 """
