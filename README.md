@@ -19,3 +19,5 @@ medición atributos característicos, utilizando modelo de Support Vector Machin
 ---
 
 Link al google colab para visualizaicon de graficos: https://colab.research.google.com/drive/1qzQOlQVV6862ZQX7C5a2anQDE05e0P3W?usp=sharing
+
+Para fines didacticos, es mas eficiente navegar el codigo y documentacion desde el notebook, debido a la facilidad de ejecucion por celdas y visualizacion de graficos interactivos.
