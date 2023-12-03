@@ -8,7 +8,7 @@
 - Revello Simon
 - Giampaoli Fabio
 
-**Fecha**: 24/11/2023
+**Fecha**: 3/12/2023
 
 ---
 
@@ -18,4 +18,4 @@ medición atributos característicos, utilizando modelo de Support Vector Machin
 
 ---
 
-Link al google colab para visualizaicon de graficos: https://colab.research.google.com/drive/1qzQOlQVV6862ZQX7C5a2anQDE05e0P3W#scrollTo=s8tt71MIF4r5
+Link al google colab para visualizaicon de graficos: https://colab.research.google.com/drive/1qzQOlQVV6862ZQX7C5a2anQDE05e0P3W?usp=sharing
